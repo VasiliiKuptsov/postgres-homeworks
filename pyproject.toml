@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "poetry new postgres-homeworks"
+version = "0.1.0"
+description = ""
+authors = ["new"]
+readme = "README.md"
+packages = [{include = "poetry new postgres_homeworks"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+psycopg2 = "2.9.7"
+
